@@ -1,0 +1,17 @@
+{
+    "name": "utvpfcc/phpiggy",
+    "description": "A PHP app for training",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fernando"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Framework\\":"src/Framework",
+            "App\\":"src/APP"
+        }
+    }
+}
